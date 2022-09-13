@@ -17,6 +17,11 @@
 		60846B8D28D0DB1D00C87B0E /* Menu3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846B8C28D0DB1D00C87B0E /* Menu3.storyboard */; };
 		60846B9028D102CB00C87B0E /* HomeMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B8F28D102CB00C87B0E /* HomeMenu1.swift */; };
 		60846B9228D1032500C87B0E /* DetailMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9128D1032500C87B0E /* DetailMenu1.swift */; };
+		60846B9528D1072E00C87B0E /* SettingsMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9328D1072E00C87B0E /* SettingsMenu1.swift */; };
+		60846B9628D1072E00C87B0E /* SettingsMenu1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60846B9428D1072E00C87B0E /* SettingsMenu1.xib */; };
+		60846B9828D10A2500C87B0E /* Settings2Menu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9728D10A2500C87B0E /* Settings2Menu1.swift */; };
+		60846B9B28D10D6C00C87B0E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9928D10D6C00C87B0E /* ProfileVC.swift */; };
+		60846B9F28D10E5700C87B0E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846B9E28D10E5700C87B0E /* Profile.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +37,11 @@
 		60846B8C28D0DB1D00C87B0E /* Menu3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu3.storyboard; sourceTree = "<group>"; };
 		60846B8F28D102CB00C87B0E /* HomeMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenu1.swift; sourceTree = "<group>"; };
 		60846B9128D1032500C87B0E /* DetailMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMenu1.swift; sourceTree = "<group>"; };
+		60846B9328D1072E00C87B0E /* SettingsMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu1.swift; sourceTree = "<group>"; };
+		60846B9428D1072E00C87B0E /* SettingsMenu1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsMenu1.xib; sourceTree = "<group>"; };
+		60846B9728D10A2500C87B0E /* Settings2Menu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings2Menu1.swift; sourceTree = "<group>"; };
+		60846B9928D10D6C00C87B0E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		60846B9E28D10E5700C87B0E /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +93,21 @@
 				60846B8828D0DAC600C87B0E /* Menu1.storyboard */,
 				60846B8F28D102CB00C87B0E /* HomeMenu1.swift */,
 				60846B9128D1032500C87B0E /* DetailMenu1.swift */,
+				60846B9328D1072E00C87B0E /* SettingsMenu1.swift */,
+				60846B9428D1072E00C87B0E /* SettingsMenu1.xib */,
+				60846B9728D10A2500C87B0E /* Settings2Menu1.swift */,
+				60846B9D28D10E3600C87B0E /* Profile */,
 			);
 			path = Menu1;
+			sourceTree = "<group>";
+		};
+		60846B9D28D10E3600C87B0E /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				60846B9928D10D6C00C87B0E /* ProfileVC.swift */,
+				60846B9E28D10E5700C87B0E /* Profile.storyboard */,
+			);
+			path = Profile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,7 +173,9 @@
 				60846B8928D0DAC600C87B0E /* Menu1.storyboard in Resources */,
 				60846B8D28D0DB1D00C87B0E /* Menu3.storyboard in Resources */,
 				60846B7E28D0D93F00C87B0E /* Assets.xcassets in Resources */,
+				60846B9F28D10E5700C87B0E /* Profile.storyboard in Resources */,
 				60846B7C28D0D93A00C87B0E /* Main.storyboard in Resources */,
+				60846B9628D1072E00C87B0E /* SettingsMenu1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +188,9 @@
 			files = (
 				60846B9028D102CB00C87B0E /* HomeMenu1.swift in Sources */,
 				60846B7528D0D93A00C87B0E /* AppDelegate.swift in Sources */,
+				60846B9B28D10D6C00C87B0E /* ProfileVC.swift in Sources */,
+				60846B9828D10A2500C87B0E /* Settings2Menu1.swift in Sources */,
+				60846B9528D1072E00C87B0E /* SettingsMenu1.swift in Sources */,
 				60846B9228D1032500C87B0E /* DetailMenu1.swift in Sources */,
 				60846B7728D0D93A00C87B0E /* SceneDelegate.swift in Sources */,
 			);

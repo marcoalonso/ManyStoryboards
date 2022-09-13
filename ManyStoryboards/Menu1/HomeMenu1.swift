@@ -9,10 +9,12 @@ import UIKit
 
 class HomeMenu1: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        definesPresentationContext = true
     }
     
 
@@ -25,6 +27,26 @@ class HomeMenu1: UIViewController {
         detailVC.modalPresentationStyle = .fullScreen
         detailVC.modalTransitionStyle = .crossDissolve
         self.present(detailVC, animated: true)
+    }
+    
+    // MARK: - Go Settings to Custom View Controller
+    @IBAction func goSettings(_ sender: Any) {
+        print("DEBUG: GoSettings")
+        let storyboard = UIStoryboard(name: "Menu1", bundle: nil)
+        
+        let settings = storyboard.instantiateViewController(withIdentifier: "Settings2Menu1") as! Settings2Menu1
+            
+            
+            self.present(settings, animated: true)
+        
+        
+    }
+    
+    
+    @IBAction func settings2Way(_ sender: Any) {
+        let vc = UIViewController(nibName: "SettingsMenu1", bundle: nil)
+        
+        self.present(vc, animated: true)
     }
     
 
