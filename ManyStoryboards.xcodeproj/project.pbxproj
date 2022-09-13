@@ -17,11 +17,11 @@
 		60846B8D28D0DB1D00C87B0E /* Menu3.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846B8C28D0DB1D00C87B0E /* Menu3.storyboard */; };
 		60846B9028D102CB00C87B0E /* HomeMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B8F28D102CB00C87B0E /* HomeMenu1.swift */; };
 		60846B9228D1032500C87B0E /* DetailMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9128D1032500C87B0E /* DetailMenu1.swift */; };
-		60846B9528D1072E00C87B0E /* SettingsMenu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9328D1072E00C87B0E /* SettingsMenu1.swift */; };
-		60846B9628D1072E00C87B0E /* SettingsMenu1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 60846B9428D1072E00C87B0E /* SettingsMenu1.xib */; };
 		60846B9828D10A2500C87B0E /* Settings2Menu1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9728D10A2500C87B0E /* Settings2Menu1.swift */; };
 		60846B9B28D10D6C00C87B0E /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846B9928D10D6C00C87B0E /* ProfileVC.swift */; };
 		60846B9F28D10E5700C87B0E /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846B9E28D10E5700C87B0E /* Profile.storyboard */; };
+		60846BA328D11DA800C87B0E /* Menu4.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60846BA228D11DA800C87B0E /* Menu4.storyboard */; };
+		60846BA528D11DC400C87B0E /* Menu4VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60846BA428D11DC400C87B0E /* Menu4VC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,11 +37,11 @@
 		60846B8C28D0DB1D00C87B0E /* Menu3.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu3.storyboard; sourceTree = "<group>"; };
 		60846B8F28D102CB00C87B0E /* HomeMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeMenu1.swift; sourceTree = "<group>"; };
 		60846B9128D1032500C87B0E /* DetailMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMenu1.swift; sourceTree = "<group>"; };
-		60846B9328D1072E00C87B0E /* SettingsMenu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsMenu1.swift; sourceTree = "<group>"; };
-		60846B9428D1072E00C87B0E /* SettingsMenu1.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SettingsMenu1.xib; sourceTree = "<group>"; };
 		60846B9728D10A2500C87B0E /* Settings2Menu1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings2Menu1.swift; sourceTree = "<group>"; };
 		60846B9928D10D6C00C87B0E /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
 		60846B9E28D10E5700C87B0E /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		60846BA228D11DA800C87B0E /* Menu4.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Menu4.storyboard; sourceTree = "<group>"; };
+		60846BA428D11DC400C87B0E /* Menu4VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu4VC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +74,7 @@
 		60846B7328D0D93A00C87B0E /* ManyStoryboards */ = {
 			isa = PBXGroup;
 			children = (
+				60846BA128D11D9900C87B0E /* Menu4 */,
 				60846B8E28D102A400C87B0E /* Menu1 */,
 				60846B7428D0D93A00C87B0E /* AppDelegate.swift */,
 				60846B7628D0D93A00C87B0E /* SceneDelegate.swift */,
@@ -81,7 +82,7 @@
 				60846B7D28D0D93F00C87B0E /* Assets.xcassets */,
 				60846B7F28D0D93F00C87B0E /* LaunchScreen.storyboard */,
 				60846B8228D0D93F00C87B0E /* Info.plist */,
-				60846B8A28D0DAFA00C87B0E /* Menu2.storyboard */,
+				60846BA028D11D7700C87B0E /* Menu2 */,
 				60846B8C28D0DB1D00C87B0E /* Menu3.storyboard */,
 			);
 			path = ManyStoryboards;
@@ -93,8 +94,6 @@
 				60846B8828D0DAC600C87B0E /* Menu1.storyboard */,
 				60846B8F28D102CB00C87B0E /* HomeMenu1.swift */,
 				60846B9128D1032500C87B0E /* DetailMenu1.swift */,
-				60846B9328D1072E00C87B0E /* SettingsMenu1.swift */,
-				60846B9428D1072E00C87B0E /* SettingsMenu1.xib */,
 				60846B9728D10A2500C87B0E /* Settings2Menu1.swift */,
 				60846B9D28D10E3600C87B0E /* Profile */,
 			);
@@ -108,6 +107,23 @@
 				60846B9E28D10E5700C87B0E /* Profile.storyboard */,
 			);
 			path = Profile;
+			sourceTree = "<group>";
+		};
+		60846BA028D11D7700C87B0E /* Menu2 */ = {
+			isa = PBXGroup;
+			children = (
+				60846B8A28D0DAFA00C87B0E /* Menu2.storyboard */,
+			);
+			path = Menu2;
+			sourceTree = "<group>";
+		};
+		60846BA128D11D9900C87B0E /* Menu4 */ = {
+			isa = PBXGroup;
+			children = (
+				60846BA228D11DA800C87B0E /* Menu4.storyboard */,
+				60846BA428D11DC400C87B0E /* Menu4VC.swift */,
+			);
+			path = Menu4;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +184,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60846BA328D11DA800C87B0E /* Menu4.storyboard in Resources */,
 				60846B8128D0D93F00C87B0E /* LaunchScreen.storyboard in Resources */,
 				60846B8B28D0DAFA00C87B0E /* Menu2.storyboard in Resources */,
 				60846B8928D0DAC600C87B0E /* Menu1.storyboard in Resources */,
@@ -175,7 +192,6 @@
 				60846B7E28D0D93F00C87B0E /* Assets.xcassets in Resources */,
 				60846B9F28D10E5700C87B0E /* Profile.storyboard in Resources */,
 				60846B7C28D0D93A00C87B0E /* Main.storyboard in Resources */,
-				60846B9628D1072E00C87B0E /* SettingsMenu1.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,9 +204,9 @@
 			files = (
 				60846B9028D102CB00C87B0E /* HomeMenu1.swift in Sources */,
 				60846B7528D0D93A00C87B0E /* AppDelegate.swift in Sources */,
+				60846BA528D11DC400C87B0E /* Menu4VC.swift in Sources */,
 				60846B9B28D10D6C00C87B0E /* ProfileVC.swift in Sources */,
 				60846B9828D10A2500C87B0E /* Settings2Menu1.swift in Sources */,
-				60846B9528D1072E00C87B0E /* SettingsMenu1.swift in Sources */,
 				60846B9228D1032500C87B0E /* DetailMenu1.swift in Sources */,
 				60846B7728D0D93A00C87B0E /* SceneDelegate.swift in Sources */,
 			);

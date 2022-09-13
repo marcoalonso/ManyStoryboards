@@ -44,9 +44,23 @@ class HomeMenu1: UIViewController {
     
     
     @IBAction func settings2Way(_ sender: Any) {
-        let vc = UIViewController(nibName: "SettingsMenu1", bundle: nil)
+        let alerta = UIAlertController(title: "Fecha :", message: "\(Date())", preferredStyle: .alert)
+        let accionAceptar = UIAlertAction(title: "Aceptar", style: .default) { (_) in
+            
+            let storyboard = UIStoryboard(name: "Menu4", bundle: nil)
+            let settings = storyboard.instantiateViewController(withIdentifier: "Menu4VC") as! Menu4VC
+            settings.modalPresentationStyle = .fullScreen
+            settings.modalTransitionStyle = .crossDissolve
+            self.present(settings, animated: true)
+        }
         
-        self.present(vc, animated: true)
+        let accionCancelar = UIAlertAction(title: "Cancelar", style: .destructive, handler: nil)
+        
+        alerta.addAction(accionAceptar)
+        alerta.addAction(accionCancelar)
+        
+        present(alerta, animated: true)
+
     }
     
 
