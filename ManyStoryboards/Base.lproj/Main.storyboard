@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="g3Y-qg-hAk">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="uvs-J6-SSF">
+            <objects>
+                <viewController id="g3Y-qg-hAk" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fHT-du-9Tu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="MoY-Dz-5PB">
+                                <rect key="frame" x="50" y="294" width="314" height="318"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nyv-Zz-WRP">
+                                        <rect key="frame" x="0.0" y="0.0" width="314" height="86"/>
+                                        <color key="backgroundColor" systemColor="systemBrownColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Menu 1"/>
+                                        <connections>
+                                            <segue destination="Oc8-QZ-BQw" kind="show" id="zD4-21-b9h"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mqk-7z-iNb">
+                                        <rect key="frame" x="0.0" y="116" width="314" height="86"/>
+                                        <color key="backgroundColor" red="0.99215859169999998" green="0.72819370029999997" blue="0.21040961150000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Menu 2"/>
+                                        <connections>
+                                            <segue destination="d4i-0w-rzg" kind="show" id="9jP-oJ-FsL"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gjU-nU-nhI">
+                                        <rect key="frame" x="0.0" y="232" width="314" height="86"/>
+                                        <color key="backgroundColor" systemColor="systemPinkColor"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                        <state key="normal" title="Menu 3"/>
+                                        <connections>
+                                            <segue destination="SZN-0m-JK8" kind="show" id="BQ7-36-5TJ"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="JK9-tu-WU1"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="JK9-tu-WU1" firstAttribute="bottom" secondItem="MoY-Dz-5PB" secondAttribute="bottom" constant="250" id="EyA-S6-X4F"/>
+                            <constraint firstItem="MoY-Dz-5PB" firstAttribute="top" secondItem="JK9-tu-WU1" secondAttribute="top" constant="250" id="UIN-Ae-a7E"/>
+                            <constraint firstItem="MoY-Dz-5PB" firstAttribute="leading" secondItem="JK9-tu-WU1" secondAttribute="leading" constant="50" id="v9C-75-o29"/>
+                            <constraint firstItem="JK9-tu-WU1" firstAttribute="trailing" secondItem="MoY-Dz-5PB" secondAttribute="trailing" constant="50" id="vYM-zh-Xki"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kO1-Gf-a82" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1881" y="781"/>
+        </scene>
+        <!--Menu1-->
+        <scene sceneID="dPf-H1-Tgi">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Menu1" id="Oc8-QZ-BQw" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="Ltp-kJ-8y2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9GS-GS-zs8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1251" y="702"/>
+        </scene>
+        <!--Menu2-->
+        <scene sceneID="ZQf-ew-p44">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Menu2" id="d4i-0w-rzg" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="EWk-eo-ykk"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HNU-Zu-D8n" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1195" y="781"/>
+        </scene>
+        <!--Menu3-->
+        <scene sceneID="bQm-h2-uXm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Menu3" id="SZN-0m-JK8" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="jlU-Xx-oTD"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKT-3p-LnJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1183" y="881"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBrownColor">
+            <color red="0.63529411764705879" green="0.51764705882352946" blue="0.36862745098039218" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
